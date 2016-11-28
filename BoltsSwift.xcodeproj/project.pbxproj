@@ -739,6 +739,62 @@
 			};
 			name = Release;
 		};
+		2C8B82141DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB53C1D3597BF00552C9F /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
+		2C8B82151DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB5271D3597BF00552C9F /* BoltsSwift-iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
+		2C8B82161DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB52B1D3597BF00552C9F /* BoltsSwiftTests-iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
+		2C8B82171DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB5281D3597BF00552C9F /* BoltsSwift-macOS.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
+		2C8B82181DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB52C1D3597BF00552C9F /* BoltsSwiftTests-macOS.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
+		2C8B82191DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB5291D3597BF00552C9F /* BoltsSwift-tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
+		2C8B821A1DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB52D1D3597BF00552C9F /* BoltsSwiftTests-tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
+		2C8B821B1DEC3AF7002ED7AA /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812DB52A1D3597BF00552C9F /* BoltsSwift-watchOS.xcconfig */;
+			buildSettings = {
+			};
+			name = QA;
+		};
 		81CC15001A9BE0A100B28F86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB5281D3597BF00552C9F /* BoltsSwift-macOS.xcconfig */;
@@ -817,6 +873,7 @@
 			buildConfigurations = (
 				065894EC1C9A933B000FDDA6 /* Debug */,
 				065894ED1C9A933B000FDDA6 /* Release */,
+				2C8B821B1DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -826,6 +883,7 @@
 			buildConfigurations = (
 				065894FD1C9A93B7000FDDA6 /* Debug */,
 				065894FE1C9A93B7000FDDA6 /* Release */,
+				2C8B82191DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -835,6 +893,7 @@
 			buildConfigurations = (
 				065895191C9A947B000FDDA6 /* Debug */,
 				0658951A1C9A947B000FDDA6 /* Release */,
+				2C8B821A1DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -844,6 +903,7 @@
 			buildConfigurations = (
 				81CC15001A9BE0A100B28F86 /* Debug */,
 				81CC15011A9BE0A100B28F86 /* Release */,
+				2C8B82171DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -853,6 +913,7 @@
 			buildConfigurations = (
 				81CC15031A9BE0A100B28F86 /* Debug */,
 				81CC15041A9BE0A100B28F86 /* Release */,
+				2C8B82181DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -862,6 +923,7 @@
 			buildConfigurations = (
 				87FEF37A1A9085FA00C60678 /* Debug */,
 				87FEF37B1A9085FA00C60678 /* Release */,
+				2C8B82141DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -871,6 +933,7 @@
 			buildConfigurations = (
 				87FEF37D1A9085FA00C60678 /* Debug */,
 				87FEF37E1A9085FA00C60678 /* Release */,
+				2C8B82151DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -880,6 +943,7 @@
 			buildConfigurations = (
 				87FEF3801A9085FA00C60678 /* Debug */,
 				87FEF3811A9085FA00C60678 /* Release */,
+				2C8B82161DEC3AF7002ED7AA /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
