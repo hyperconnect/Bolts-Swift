@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.summary          = 'Bolts is a collection of low-level libraries designed to make developing mobile apps easier.'
   s.homepage         = 'https://github.com/BoltsFramework'
   s.authors          = { 'Nikita Lutsenko' => 'nlutsenko@me.com' }
-  
-  s.source       = { :git => 'https://github.com/BoltsFramework/Bolts-Swift.git', :tag => s.version.to_s }
+
+  s.source       = { :git => 'https://github.com/hyperconnect/Bolts-Swift.git', :branch => 'cocoapods' }
 
   s.requires_arc = true
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
-  
+
   s.source_files = 'Sources/BoltsSwift/*.swift'
   s.module_name = 'BoltsSwift'
 end
